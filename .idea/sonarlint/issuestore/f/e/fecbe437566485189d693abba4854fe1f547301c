@@ -1,0 +1,23 @@
+
+Xsquid:S4719Š"9Replace charset name argument with StandardCharsets.UTF_8(ãİùâ8¯şß¼£/
+gsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ
+_squid:S00112õ"FDefine and throw a dedicated exception instead of using a generic one.(Á¯‡
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×˜Şö
+Wsquid:S4719Z"9Replace charset name argument with StandardCharsets.UTF_8(ãİùâ8¯şß¼£/
+bsquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(¡æ²#
+_squid:S00112¤"FDefine and throw a dedicated exception instead of using a generic one.(–™ä•
+]squid:CallToDeprecatedMethodø"4Remove this use of "closeQuietly"; it is deprecated.(Ù¸Ç
+Wsquid:S4719r"9Replace charset name argument with StandardCharsets.UTF_8(ç—Èİ8¯şß¼£/
+hsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(—áçÚùÿÿÿÿ
+Xsquid:S4719¢"9Replace charset name argument with StandardCharsets.UTF_8(ç—Èİ8¯şß¼£/
+^squid:S00112t"FDefine and throw a dedicated exception instead of using a generic one.(–™ä•
+Xsquid:S4719Ğ"9Replace charset name argument with StandardCharsets.UTF_8(Çñ š8¯şß¼£/
+dsquid:S00112Œ"FDefine and throw a dedicated exception instead of using a generic one.(Ôâ…—ÿÿÿÿÿ
+gsquid:CommentedOutCodeLinep"<This block of commented-out lines of code should be removed.(—áçÚùÿÿÿÿ
+csquid:S00112\"FDefine and throw a dedicated exception instead of using a generic one.(Ôâ…—ÿÿÿÿÿ
+^squid:S00112»"FDefine and throw a dedicated exception instead of using a generic one.(§Ã†y
+_squid:S00112Ó"FDefine and throw a dedicated exception instead of using a generic one.(ñ‹•¨
+psquid:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬¨…™
+asquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(¡æ²#
+Xsquid:S4719¸"9Replace charset name argument with StandardCharsets.UTF_8(Çñ š8¯şß¼£/
+msquid:S1192\"QDefine a constant instead of duplicating this literal "]æ—¶é‡åˆ°å¼‚å¸¸" 6 times.(Ôâ…—ÿÿÿÿÿ

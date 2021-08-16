@@ -1,0 +1,27 @@
+
+P
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(¹´Ç÷
+osquid:ModifiersOrderCheckC"EReorder the modifiers to comply with the Java Language Specification.(—€àøÿÿÿÿ
+esquid:S5361’"HReplace this call to "replaceAll()" by a call to the "replace()" method.(Ò»ŸÁúÿÿÿÿ
+_squid:S00112°"FDefine and throw a dedicated exception instead of using a generic one.(ÌÑñ‰
+Asquid:S1181x"%Catch Exception instead of Throwable.(•”ø¾øÿÿÿÿ
+<squid:S2676™"Use the original value instead.(™Â›¢ıÿÿÿÿ
+osquid:ModifiersOrderCheckI"EReorder the modifiers to comply with the Java Language Specification.(ê¤“øÿÿÿÿ
+isquid:ModifiersOrderCheck="EReorder the modifiers to comply with the Java Language Specification.(–«ï+
+osquid:ModifiersOrderCheck7"EReorder the modifiers to comply with the Java Language Specification.(î¸’‡şÿÿÿÿ
+Qsquid:S1141v"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+osquid:ModifiersOrderCheck4"EReorder the modifiers to comply with the Java Language Specification.(‘şÃ–üÿÿÿÿ
+Asquid:S1181i"%Catch Exception instead of Throwable.(‡˜ÚÚøÿÿÿÿ
+jsquid:ModifiersOrderCheck."EReorder the modifiers to comply with the Java Language Specification.(Â’Îã
+Fsquid:S00108x")Either remove or fill this block of code.(•”ø¾øÿÿÿÿ
+jsquid:ModifiersOrderCheck$"EReorder the modifiers to comply with the Java Language Specification.(ÛßÖ¶
+Isquid:S1199t"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+jsquid:ModifiersOrderCheck:"EReorder the modifiers to comply with the Java Language Specification.(ÒøÉŞ
+Isquid:S1199b"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+P
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(ö¡¹ê
+Qsquid:S1141c"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+dsquid:S00112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+isquid:ModifiersOrderCheckF"EReorder the modifiers to comply with the Java Language Specification.(«ÈÃb
+osquid:ModifiersOrderCheck@"EReorder the modifiers to comply with the Java Language Specification.(ÁğÙıÿÿÿÿ
+osquid:ModifiersOrderCheck)"EReorder the modifiers to comply with the Java Language Specification.(™Ğõ»úÿÿÿÿ

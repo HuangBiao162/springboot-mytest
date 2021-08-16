@@ -1,0 +1,2343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="risk_management@172.22.23.210">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>5.6.23</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="aa">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="abtest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="adver_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="adver_intelligent_icenter">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="adver_intelligent_idata">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="adver_intelligent_itask">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="adver_log">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="advert">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="advert_channel">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="alarms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="alert_user">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="alipay_crawler">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="apollo_config">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="apollo_portal">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="apolloconfigdb">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="apolloconfigdev">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="apolloportaldb">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="app_crawler">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="app_operation">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="authority">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="bankdata">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="basedata">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="baseline">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="bdscreen">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="bigdata_sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="bigdata_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="bigdata_yuxin_dqm">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="bill">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="30" parent="1" name="biz_user">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="31" parent="1" name="book_center">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="32" parent="1" name="boot_crm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="33" parent="1" name="business_agency">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="34" parent="1" name="card">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="35" parent="1" name="card_invitation">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="36" parent="1" name="card_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="37" parent="1" name="cardniu-quartz">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="38" parent="1" name="cardniu-switch-scaffold">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="39" parent="1" name="cardniu-wechat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="40" parent="1" name="cardniu_activity">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="41" parent="1" name="cardniu_activity_gfhkjhb">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="42" parent="1" name="cardniu_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="43" parent="1" name="cardniu_alarm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="44" parent="1" name="cardniu_api_support">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="45" parent="1" name="cardniu_api_support_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="46" parent="1" name="cardniu_coupons">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="47" parent="1" name="cardniu_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="48" parent="1" name="cardniu_data_report">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="49" parent="1" name="cardniu_dataliteral">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="50" parent="1" name="cardniu_datasource_chart">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="51" parent="1" name="cardniu_doc">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="52" parent="1" name="cardniu_fzs">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="53" parent="1" name="cardniu_insurance">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="54" parent="1" name="cardniu_license">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="55" parent="1" name="cardniu_manager">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="56" parent="1" name="cardniu_monitor">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="57" parent="1" name="cardniu_promotion">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="58" parent="1" name="cardniu_recommend">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="59" parent="1" name="cardniu_redpacket">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="60" parent="1" name="cardniu_reserve">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="61" parent="1" name="cardniu_restitute_benefit">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="62" parent="1" name="cardniu_restitute_coin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="63" parent="1" name="cardniu_rights">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="64" parent="1" name="cardniu_schedule">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="65" parent="1" name="cardniu_switch">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="66" parent="1" name="cardniu_sys_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="67" parent="1" name="cardniu_wallet">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="68" parent="1" name="cardniu_wallet_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="69" parent="1" name="cardniu_wechat">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="70" parent="1" name="cardniu_wechat_phone">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="71" parent="1" name="cardniu_wordclassify">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="72" parent="1" name="cardniu_zhima_score">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="73" parent="1" name="cardniuloan">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="74" parent="1" name="cardniuloan_new">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="75" parent="1" name="cardniuoperation">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="76" parent="1" name="ccrepayment">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="77" parent="1" name="channel_manage">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="78" parent="1" name="channel_manage_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="79" parent="1" name="channel_stat">
+      <Collation>utf8mb4_slovenian_ci</Collation>
+    </schema>
+    <schema id="80" parent="1" name="check_idfa">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="81" parent="1" name="cjf">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="82" parent="1" name="cms_demo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="83" parent="1" name="cnm">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="84" parent="1" name="community_content_center">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="85" parent="1" name="conf_center">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="86" parent="1" name="config_db">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="87" parent="1" name="confluence">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="88" parent="1" name="converge-bill-2.0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="89" parent="1" name="converge_bill">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="90" parent="1" name="converge_bill_account">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="91" parent="1" name="credit_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="92" parent="1" name="credit_invest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="93" parent="1" name="credit_wallet">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="94" parent="1" name="customer_service">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="95" parent="1" name="dang">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="96" parent="1" name="dashboard">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="97" parent="1" name="data-manage">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="98" parent="1" name="data_center_vip">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="99" parent="1" name="data_interface">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="100" parent="1" name="data_merge">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="101" parent="1" name="data_report">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="102" parent="1" name="data_report_public">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="103" parent="1" name="database_sms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="104" parent="1" name="datacenter">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="105" parent="1" name="datacenter_2017_front">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="106" parent="1" name="datacenter_2019">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="107" parent="1" name="datasource">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="108" parent="1" name="db_backoperation">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="109" parent="1" name="db_bankprogress">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="110" parent="1" name="db_lightapp">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="111" parent="1" name="db_mbank">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="112" parent="1" name="db_mbank_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="113" parent="1" name="db_shandianjiekuan">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="114" parent="1" name="db_suishoudai">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="115" parent="1" name="db_suishoujiedian">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="116" parent="1" name="db_withdraw">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="117" parent="1" name="demo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="118" parent="1" name="demo_ds">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="119" parent="1" name="demo_ds_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="120" parent="1" name="demo_ds_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="121" parent="1" name="demo_ds_master">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="122" parent="1" name="demo_ds_master_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="123" parent="1" name="demo_ds_master_0_slave_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="124" parent="1" name="demo_ds_master_0_slave_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="125" parent="1" name="demo_ds_master_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="126" parent="1" name="demo_ds_master_1_slave_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="127" parent="1" name="demo_ds_master_1_slave_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="128" parent="1" name="demo_ds_slave_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="129" parent="1" name="demo_ds_slave_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="130" parent="1" name="dev_dzc">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="131" parent="1" name="discuz">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="132" parent="1" name="discuzx">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="133" parent="1" name="dk_sonar">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="134" parent="1" name="docard_center">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="135" parent="1" name="docard_channel">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="136" parent="1" name="docard_related">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="137" parent="1" name="draw_activity">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="138" parent="1" name="dsp">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="139" parent="1" name="ebank_app_select">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="140" parent="1" name="email">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="141" parent="1" name="email_center">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="142" parent="1" name="emoney">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="143" parent="1" name="etdb">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="144" parent="1" name="etdevdb">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="145" parent="1" name="examine">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="146" parent="1" name="falcon_links">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="147" parent="1" name="falcon_portal">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="148" parent="1" name="fdmk_feedback">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="149" parent="1" name="fdmoney_market">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="150" parent="1" name="feidee_laoyeye_applog">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="151" parent="1" name="feidee_laoyeye_behavior_collect">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="152" parent="1" name="feidee_laoyeye_behavior_log">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="153" parent="1" name="feidee_laoyeye_error">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="154" parent="1" name="feidee_laoyeye_form">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="155" parent="1" name="feidee_laoyeye_html">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="156" parent="1" name="feidee_laoyeye_licai">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="157" parent="1" name="feidee_laoyeye_log">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="158" parent="1" name="feidee_laoyeye_result">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="159" parent="1" name="feidee_laoyeye_visit">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="160" parent="1" name="feidee_licai">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="161" parent="1" name="feidee_spider_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="162" parent="1" name="feidee_tag">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="163" parent="1" name="feidee_userform_data">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="164" parent="1" name="feidee_userform_loan">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="165" parent="1" name="feidee_userform_mail">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="166" parent="1" name="feidee_userform_monitor">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="167" parent="1" name="feidee_userform_report">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="168" parent="1" name="fiancne_operation_online">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="169" parent="1" name="file_log">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="170" parent="1" name="finance_data_pt">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="171" parent="1" name="finance_jizhangla">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="172" parent="1" name="finance_sgj_cloud_config">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="173" parent="1" name="finance_sgj_dc_fundstock">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="174" parent="1" name="finance_sgj_gateway">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="175" parent="1" name="finance_sgj_spider_data">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="176" parent="1" name="finance_sgj_spider_site">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="177" parent="1" name="financial_education_program">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="178" parent="1" name="financial_institute">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="179" parent="1" name="fix_match_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="180" parent="1" name="flag">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="181" parent="1" name="flask_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="182" parent="1" name="frontend-ves">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="183" parent="1" name="frontend_weekly_summary">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="184" parent="1" name="fundhouse">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="185" parent="1" name="fundhouse_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="186" parent="1" name="fundhouse_copy">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="187" parent="1" name="fundhouse_prod">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="188" parent="1" name="gateway_route">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="189" parent="1" name="gerritdb">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="190" parent="1" name="gold_plaza">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="191" parent="1" name="graph">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="192" parent="1" name="growth_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="193" parent="1" name="guns">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="194" parent="1" name="guns_flowable">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="195" parent="1" name="ibank">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="196" parent="1" name="idfa_check">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="197" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="198" parent="1" name="instalment-mkt">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="199" parent="1" name="intelli_stage">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="200" parent="1" name="jdbc">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="201" parent="1" name="jdbctemplate">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="202" parent="1" name="jeesite">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="203" parent="1" name="jira_cardniu">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="204" parent="1" name="jizhangla_baseinfo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="205" parent="1" name="jizhangla_bill">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="206" parent="1" name="jizhangla_common">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="207" parent="1" name="jizhangla_user">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="208" parent="1" name="jr_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="209" parent="1" name="js_sdk_auth">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="210" parent="1" name="kn_card_reserve">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="211" parent="1" name="kn_homepage_dbtest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="212" parent="1" name="kn_new_user_guide">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="213" parent="1" name="kn_repay_coupon_activity">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="214" parent="1" name="laoyeye_admin_auth">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="215" parent="1" name="laoyeye_applycard_report">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="216" parent="1" name="laoyeye_bigdata">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="217" parent="1" name="leaf">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="218" parent="1" name="lean_board">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="219" parent="1" name="licai">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="220" parent="1" name="lifepay_center">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="221" parent="1" name="ljhtest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="222" parent="1" name="loan_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="223" parent="1" name="loan_remind">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="224" parent="1" name="loanmanage">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="225" parent="1" name="local_token">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="226" parent="1" name="location">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="227" parent="1" name="log_collect">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="228" parent="1" name="m_bank">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="229" parent="1" name="mail_send">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="230" parent="1" name="mailgrab">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="231" parent="1" name="mailgrab_slave">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="232" parent="1" name="maintain">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="233" parent="1" name="mall">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="234" parent="1" name="meeting">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="235" parent="1" name="message">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="236" parent="1" name="message_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="237" parent="1" name="message_log">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="238" parent="1" name="message_report">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="239" parent="1" name="message_report_db_0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="240" parent="1" name="message_report_db_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="241" parent="1" name="message_report_db_2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="242" parent="1" name="message_stat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="243" parent="1" name="message_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="244" parent="1" name="message_tmp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="245" parent="1" name="micang">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="246" parent="1" name="moeny_log0_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="247" parent="1" name="mondriantest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="248" parent="1" name="money">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="249" parent="1" name="money_active">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="250" parent="1" name="money_active_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="251" parent="1" name="money_bi">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="252" parent="1" name="money_index">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="253" parent="1" name="money_log0">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="254" parent="1" name="money_log1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="255" parent="1" name="money_log2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="256" parent="1" name="money_lunch">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="257" parent="1" name="money_message">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="258" parent="1" name="money_moment">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="259" parent="1" name="money_operation">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="260" parent="1" name="money_p2p">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="261" parent="1" name="money_pay">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="262" parent="1" name="money_photo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="263" parent="1" name="money_pingan">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="264" parent="1" name="money_sina">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="265" parent="1" name="money_ssj1">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="266" parent="1" name="money_ssj1_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="267" parent="1" name="money_ssj2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="268" parent="1" name="money_ssj3_business">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="269" parent="1" name="money_ssj3_business_migration">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="270" parent="1" name="money_ssj4_tax">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="271" parent="1" name="money_ssj5_work">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="272" parent="1" name="money_sys">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="273" parent="1" name="money_sys1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="274" parent="1" name="money_sys2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="275" parent="1" name="money_sys_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="276" parent="1" name="money_sys_u">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="277" parent="1" name="money_sys_u_sha1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="278" parent="1" name="money_sys_u_sha2">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="279" parent="1" name="money_tinker">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="280" parent="1" name="money_twinkle_tunnel">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="281" parent="1" name="money_v4">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="282" parent="1" name="monitor">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="283" parent="1" name="my_only_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="284" parent="1" name="mybatis">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="285" parent="1" name="mymoney_sms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="286" parent="1" name="mysql">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="287" parent="1" name="mytest">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="288" parent="1" name="normalreport">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="289" parent="1" name="oa_db">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="290" parent="1" name="oauth2_server">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="291" parent="1" name="ommp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="292" parent="1" name="onepay">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="293" parent="1" name="onepay_back">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="294" parent="1" name="online_ad">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="295" parent="1" name="op_sys_collect_step">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="296" parent="1" name="op_sys_finance_supermarket">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="297" parent="1" name="op_sys_qqsports_kn">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="298" parent="1" name="op_sys_qqsports_ssj">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="299" parent="1" name="open_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="300" parent="1" name="operation_act">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="301" parent="1" name="operation_adam">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="302" parent="1" name="operation_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="303" parent="1" name="operation_center">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="304" parent="1" name="operation_common">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="305" parent="1" name="operation_data_clean">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="306" parent="1" name="operation_loan">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="307" parent="1" name="operation_market">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="308" parent="1" name="operation_permission">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="309" parent="1" name="operation_recommend">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="310" parent="1" name="operation_sso">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="311" parent="1" name="operation_stat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="312" parent="1" name="oss_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="313" parent="1" name="parased_info">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="314" parent="1" name="partner">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="315" parent="1" name="partner_service">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="316" parent="1" name="pay_center_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="317" parent="1" name="payment">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="318" parent="1" name="perconatool">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="319" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="320" parent="1" name="platform_apidata">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="321" parent="1" name="platform_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="322" parent="1" name="platform_data_data">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="323" parent="1" name="platform_finance">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="324" parent="1" name="platform_report">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="325" parent="1" name="potato">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="326" parent="1" name="pt_authority">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="327" parent="1" name="pubapi">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="328" parent="1" name="push">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="329" parent="1" name="qidian">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="330" parent="1" name="qinjw">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="331" parent="1" name="qiu_db">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="332" parent="1" name="qqrun_plan_c">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="333" parent="1" name="qqsports">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="334" parent="1" name="rap_db">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="335" parent="1" name="recharge_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="336" parent="1" name="recommend">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="337" parent="1" name="recommend_cardniu">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="338" parent="1" name="recommend_sys">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="339" parent="1" name="red_envelop">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="340" parent="1" name="repay_batch">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="341" parent="1" name="repay_coupon">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="342" parent="1" name="repay_reserve">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="343" parent="1" name="repayment_activity">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="344" parent="1" name="report_log">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="345" parent="1" name="retro_snaker_ves">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="346" parent="1" name="risk_contacts">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="347" parent="1" name="risk_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="348" parent="1" name="risk_engine">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="349" parent="1" name="risk_loan">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="350" parent="1" name="risk_management">
+      <Current>1</Current>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="351" parent="1" name="risk_ssloan">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="352" parent="1" name="risk_user_data">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="353" parent="1" name="riskcontrol">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="354" parent="1" name="riskcontrol_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="355" parent="1" name="ry-vue">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="356" parent="1" name="school_boot">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="357" parent="1" name="scraping">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="358" parent="1" name="seata">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="359" parent="1" name="seata_amount">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="360" parent="1" name="seata_order">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="361" parent="1" name="seata_storage">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="362" parent="1" name="segment">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="363" parent="1" name="sell.sql">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="364" parent="1" name="sharding_0">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="365" parent="1" name="sharding_1">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="366" parent="1" name="shop_mall">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="367" parent="1" name="short_url">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="368" parent="1" name="skywalking">
+      <Collation>utf8_unicode_ci</Collation>
+    </schema>
+    <schema id="369" parent="1" name="smm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="370" parent="1" name="sms">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="371" parent="1" name="sms_old">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="372" parent="1" name="sms_slave">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="373" parent="1" name="snapshot">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="374" parent="1" name="socialsecurity">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="375" parent="1" name="socialsecurity_admin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="376" parent="1" name="sonar_message">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="377" parent="1" name="sonarqube">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="378" parent="1" name="sosoapi">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="379" parent="1" name="spider">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="380" parent="1" name="splash">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="381" parent="1" name="splash_search">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="382" parent="1" name="spring_boot_example">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="383" parent="1" name="springboot-quarz">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="384" parent="1" name="springbootdb">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="385" parent="1" name="springbootdb_cluster">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="386" parent="1" name="springbootmybatis">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="387" parent="1" name="springboottest">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="388" parent="1" name="springdatajpa">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="389" parent="1" name="springdy_db">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="390" parent="1" name="ssj_bbs_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="391" parent="1" name="ssj_real_name">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="392" parent="1" name="ssj_stat">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="393" parent="1" name="ssj_task">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="394" parent="1" name="ssm">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="395" parent="1" name="stat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="396" parent="1" name="statcardniu">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="397" parent="1" name="store_dubbox">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="398" parent="1" name="sui-ocr">
+      <Collation>utf8mb4_vietnamese_ci</Collation>
+    </schema>
+    <schema id="399" parent="1" name="sui-t">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="400" parent="1" name="sui-wechat-activity">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="401" parent="1" name="sui_acquiring">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="402" parent="1" name="sui_archetype">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="403" parent="1" name="sui_earn">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="404" parent="1" name="sui_form">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="405" parent="1" name="sui_investment_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="406" parent="1" name="sui_investment_book">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="407" parent="1" name="sui_investment_platform">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="408" parent="1" name="sui_oss">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="409" parent="1" name="sui_pull_wool">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="410" parent="1" name="sui_ves_operation_center">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="411" parent="1" name="suiconfig_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="412" parent="1" name="suishoujiedian_coop">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="413" parent="1" name="suishoujiedian_speed">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="414" parent="1" name="support">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="415" parent="1" name="swagger">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="416" parent="1" name="taotiansys">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="417" parent="1" name="tcc">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="418" parent="1" name="tcc_cap">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="419" parent="1" name="tcc_ord">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="420" parent="1" name="tcc_red">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="421" parent="1" name="template-api">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="422" parent="1" name="terminal_manage">
+      <Collation>utf32_vietnamese_ci</Collation>
+    </schema>
+    <schema id="423" parent="1" name="test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="424" parent="1" name="test_apollo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="425" parent="1" name="test_monitor">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="426" parent="1" name="test_oauth">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="427" parent="1" name="testrec">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="428" parent="1" name="tmp123456">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="429" parent="1" name="tom-goong">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="430" parent="1" name="travel_accounting_program">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="431" parent="1" name="uc">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="432" parent="1" name="ucc">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="433" parent="1" name="ucenter">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="434" parent="1" name="ucenterx">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="435" parent="1" name="uic">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="436" parent="1" name="unionpay">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="437" parent="1" name="unionpay_qrcode">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="438" parent="1" name="unionpay_qrcode_activity">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="439" parent="1" name="unionpay_qrcode_admin">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="440" parent="1" name="unionpaygrap">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="441" parent="1" name="user_alert">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="442" parent="1" name="ves">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="443" parent="1" name="ves_test2">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="444" parent="1" name="vue_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="445" parent="1" name="wangzhijun">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="446" parent="1" name="wd_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="447" parent="1" name="web_cp_config">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="448" parent="1" name="wechat">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="449" parent="1" name="winlife">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="450" parent="1" name="wordclassify">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="451" parent="1" name="wordpress">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="452" parent="1" name="wptest">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="453" parent="1" name="wucai">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="454" parent="1" name="wuzs">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="455" parent="1" name="wx_emoji">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="456" parent="1" name="wx_flag">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="457" parent="1" name="wx_goodnight">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="458" parent="1" name="wx_lottery">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="459" parent="1" name="wx_single_dog">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="460" parent="1" name="xieyu">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="461" parent="1" name="xjs_money_new">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="462" parent="1" name="xjs_money_ssj">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="463" parent="1" name="xjs_money_ssj3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="464" parent="1" name="xjs_new_sync_log">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="465" parent="1" name="xjs_new_sync_log2">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="466" parent="1" name="xjs_new_sync_log3">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="467" parent="1" name="xxl-job">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="468" parent="1" name="xxl_job">
+      <Collation>utf8mb4_unicode_ci</Collation>
+    </schema>
+    <schema id="469" parent="1" name="yilin_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="470" parent="1" name="yiya">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="471" parent="1" name="yiyongtest">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="472" parent="1" name="ysanalytics">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="473" parent="1" name="yueuetest">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="474" parent="1" name="yun_money_sys_u">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="475" parent="1" name="yx_test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="476" parent="1" name="yy_sys_qqsports_ssj">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="477" parent="1" name="yypt_test">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="478" parent="1" name="zengken">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="479" parent="1" name="zhonghua">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="480" parent="1" name="zscg">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="481" parent="1" name="zum">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="482" parent="1" name="zum_2">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="483" parent="1" name="zum_3">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="484" parent="1" name="zum_4">
+      <Collation>utf8mb4_general_ci</Collation>
+    </schema>
+    <schema id="485" parent="1" name="zzzss">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="486" parent="1" name="zzzz">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="487" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="488" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="489" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="490" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="491" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="492" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="493" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="494" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="495" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="496" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="497" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="498" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="499" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="500" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="501" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="502" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="503" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="504" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="505" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="506" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="507" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="508" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="509" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="510" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="511" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="512" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="513" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="514" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="515" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="516" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="517" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="518" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="519" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="520" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="521" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="522" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="523" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="524" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="525" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="526" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="527" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="528" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="529" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="530" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="531" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="532" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="533" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="534" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="535" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="536" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="537" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="538" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="539" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="540" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="541" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="542" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="543" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="544" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="545" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="546" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="547" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="548" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="549" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="550" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="551" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="552" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="553" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="554" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="555" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="556" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="557" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="558" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="559" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="560" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="561" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="562" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="563" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="564" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="565" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="566" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="567" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="568" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="569" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="570" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="571" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="572" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="573" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="574" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="575" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="576" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="577" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="578" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="579" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="580" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="581" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="582" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="583" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="584" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="585" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="586" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="587" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="588" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="589" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="590" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="591" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="592" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="593" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="594" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="595" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="596" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="597" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="598" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="599" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="600" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="601" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="602" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="603" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="604" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="605" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="606" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="607" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="608" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="609" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="610" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="611" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="612" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="613" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="614" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="615" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="616" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="617" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="618" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="619" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="620" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="621" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="622" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="623" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="624" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="625" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="626" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="627" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="628" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="629" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="630" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="631" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="632" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="633" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="634" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="635" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="636" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="637" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="638" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="639" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="640" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="641" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="642" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="643" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="644" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="645" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="646" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="647" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="648" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="649" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="650" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="651" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="652" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="653" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="654" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="655" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="656" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="657" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="658" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="659" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="660" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="661" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="662" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="663" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="664" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="665" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="666" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="667" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="668" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="669" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="670" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="671" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="672" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="673" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="674" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="675" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="676" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="677" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="678" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="679" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="680" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="681" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="682" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="683" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="684" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="685" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="686" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="687" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="688" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="689" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="690" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="691" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="692" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="693" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="694" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="695" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="696" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="697" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="698" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="699" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="700" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="701" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="702" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="703" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="704" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="705" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+  </database-model>
+</dataSource>

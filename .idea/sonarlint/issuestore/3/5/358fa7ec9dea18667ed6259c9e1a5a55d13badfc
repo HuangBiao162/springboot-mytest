@@ -1,0 +1,12 @@
+
+Qsquid:S1191
+"5Use classes from the Java API instead of Sun classes.(Ó¨Ôÿÿÿÿÿ
+^squid:S1192"GDefine a constant instead of duplicating this literal "DESede" 4 times.(Éğª—
+^squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ŠÏÑÂ
+^squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ŞŒŸœ
+bsquid:UselessImportCheck">Remove this unused import 'javax.crypto.spec.IvParameterSpec'.(­“§
+]squid:UselessImportCheck"9Remove this unused import 'javax.crypto.spec.DESKeySpec'.(„¯ê
+Psquid:S4719"9Replace charset name argument with StandardCharsets.UTF_8(œÇ¼
+[squid:S2278"?Use the recommended AES (Advanced Encryption Standard) instead.(Àí±øÿÿÿÿ
+Psquid:S4719$"9Replace charset name argument with StandardCharsets.UTF_8(œÇ¼
+[squid:S2278)"?Use the recommended AES (Advanced Encryption Standard) instead.(Àí±øÿÿÿÿ

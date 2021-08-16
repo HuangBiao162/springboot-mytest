@@ -1,0 +1,46 @@
+
+dsquid:S11924"MUse already-defined constant 'PATTERN' instead of duplicating its value here.(§Îâ–
+Gsquid:S00108î")Either remove or fill this block of code.(âÃƒŠıÿÿÿÿ
+isquid:S3252±"EUse static access with "cn.hutool.core.util.ObjectUtil" for "isNull".(ÿŒËÎøÿÿÿÿ8ÌÅûù•/
+Psquid:S2130‚"9Use "Integer.parseInt" for this string-to-int conversion.(õ‚Ä
+?squid:S1481Ä"(Remove this unused "sdf" local variable.(¬ü¯-
+Bsquid:S00108ò")Either remove or fill this block of code.(”ı¾
+Bsquid:S00108Ÿ")Either remove or fill this block of code.(”ı¾
+Usquid:S2130®"8Use "Long.parseLong" for this string-to-long conversion.(›…â†üÿÿÿÿ
+Bsquid:S00108à")Either remove or fill this block of code.(”ı¾
+>squid:S2111ç"!Use "BigDecimal.valueOf" instead.(ƒ¯»Äúÿÿÿÿ
+Vsquid:S2130ƒ"9Use "Integer.parseInt" for this string-to-int conversion.(Şö¦ıÿÿÿÿ
+_squid:S00112µ"FDefine and throw a dedicated exception instead of using a generic one.(öåšÍ
+?squid:S1481®"(Remove this unused "sdf" local variable.(¬ü¯-
+Nsquid:S1854Ø"7Remove this useless assignment to local variable "sdf".(¬ü¯-
+^squid:S1126˜"AReplace this if-then-else statement by a single return statement.(ŠµúÙùÿÿÿÿ
+xsquid:S1488”"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+xsquid:S1488Â"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+isquid:S3027Z"FPut single-quotes around '-' to use the faster "indexOf(char)" method.(š¡Éúùÿÿÿÿ8ä¨ùÚ‘/
+@squid:S1148¥"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+^squid:S1126"AReplace this if-then-else statement by a single return statement.(–™âÀùÿÿÿÿ
+jsquid:S3776‡"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÿŸ”³
+@squid:S1148’"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Bsquid:S00108¶")Either remove or fill this block of code.(”ı¾
+ysquid:S1488ç"\Immediately return this expression instead of assigning it to the temporary variable "days".(ƒ¯»Äúÿÿÿÿ
+xsquid:S1488³"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+Hsquid:S1172¡"+Remove this unused method parameter "date".(ÂÈÒºøÿÿÿÿ
+fsquid:S11924"OUse already-defined constant 'PATTERN_2' instead of duplicating its value here.(§Îâ–
+?squid:S1481Ø"(Remove this unused "sdf" local variable.(¬ü¯-
+>squid:S2111Ù"!Use "BigDecimal.valueOf" instead.(İâ²äûÿÿÿÿ
+Bsquid:S00108É")Either remove or fill this block of code.(”ı¾
+xsquid:S1488Ñ"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+xsquid:S1488¤"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+Nsquid:S1854Ä"7Remove this useless assignment to local variable "sdf".(¬ü¯-
+gsquid:S00100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­û
+ysquid:S1488Ù"\Immediately return this expression instead of assigning it to the temporary variable "days".(İâ²äûÿÿÿÿ
+esquid:S1126±"AReplace this if-then-else statement by a single return statement.(ÿŒËÎøÿÿÿÿ8ä¨ùÚ‘/
+Hsquid:S10683"1Remove this unused "parsePatterns" private field.(”ü”‘
+Nsquid:S1854®"7Remove this useless assignment to local variable "sdf".(¬ü¯-
+Vsquid:S2130„"9Use "Integer.parseInt" for this string-to-int conversion.(û‹Œ×üÿÿÿÿ
+nsquid:S1192‰"VDefine a constant instead of duplicating this literal "Illegal Argument arg:" 3 times.(ñ¨«
+zsquid:S4144"]Update this method so that its implementation is not identical to "getFirstTime" on line 570.(áÚ­¡ùÿÿÿÿ
+usquid:S1488ª"]Immediately return this expression instead of assigning it to the temporary variable "iDays".(–Ë†Á
+xsquid:S1488„"[Immediately return this expression instead of assigning it to the temporary variable "dt1".(ËÆ÷øøÿÿÿÿ
+Wsquid:S1854İ":Remove this useless assignment to local variable "result".(ûÏŞàşÿÿÿÿ
+isquid:S3252±"EUse static access with "cn.hutool.core.util.ObjectUtil" for "isNull".(ÿŒËÎøÿÿÿÿ8ÌÅûù•/

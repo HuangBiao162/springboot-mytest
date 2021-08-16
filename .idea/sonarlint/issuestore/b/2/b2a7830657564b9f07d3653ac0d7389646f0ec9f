@@ -1,0 +1,14 @@
+
+8squid:S16432"Use a StringBuilder instead.(¼àªÄøÿÿÿÿ
+xsquid:S1488A"aImmediately return this expression instead of assigning it to the temporary variable "secretKey".(šóó«
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™½’ã
+^squid:S00112?"FDefine and throw a dedicated exception instead of using a generic one.(³ µŸ
+_squid:S00112¶"FDefine and throw a dedicated exception instead of using a generic one.(éÔ’
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(™½’ã
+vsquid:S1149S"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(²”ÒÎ
+®%squid:RedundantThrowsDeclarationCheck+"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(·›Ñ±
+%squid:RedundantThrowsDeclarationCheck?"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(³ µŸ
+Lsquid:S4432r"0Use Galois/Counter Mode (GCM/NoPadding) instead.(Çü¬¶şÿÿÿÿ
+Msquid:S4432©"0Use Galois/Counter Mode (GCM/NoPadding) instead.(Çü¬¶şÿÿÿÿ
+gsquid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(×ŸáÀùÿÿÿÿ
+hsquid:CommentedOutCodeLine¦"<This block of commented-out lines of code should be removed.(×ŸáÀùÿÿÿÿ

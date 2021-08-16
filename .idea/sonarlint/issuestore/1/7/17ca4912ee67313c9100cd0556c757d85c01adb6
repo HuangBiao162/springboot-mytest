@@ -1,0 +1,19 @@
+
+csquid:S00112O"FDefine and throw a dedicated exception instead of using a generic one.(Ïã¡İşÿÿÿÿ
+bsquid:S1192M"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(í½¾Âùÿÿÿÿ
+esquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¹èÓã
+Rsquid:S1854":Remove this useless assignment to local variable "cipher".(ö”ùæ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¹èÓã
+~squid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(áÛ£ìıÿÿÿÿ8ş·¥†/
+4squid:S1643›"Use a StringBuilder instead.(ê»û
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(–¼’ˆûÿÿÿÿ8‡ø¥†/
+csquid:S00112]"FDefine and throw a dedicated exception instead of using a generic one.(Ïã¡İşÿÿÿÿ
+Usquid:S4719M"9Replace charset name argument with StandardCharsets.UTF_8(í½¾Âùÿÿÿÿ
+Vsquid:S4719Ÿ"9Replace charset name argument with StandardCharsets.UTF_8(òâæÊøÿÿÿÿ
+tsquid:S2068"Q'pwd' detected in this expression, review this potentially hard-coded credential.(áÛ£ìıÿÿÿÿ8”†/
+csquid:S00112K"FDefine and throw a dedicated exception instead of using a generic one.(ô³­úÿÿÿÿ
+dsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(Ïã¡İşÿÿÿÿ
+_squid:S00112€"FDefine and throw a dedicated exception instead of using a generic one.(ÙğË²
+Qsquid:S1854s":Remove this useless assignment to local variable "cipher".(ö”ùæ
+Usquid:S4719["9Replace charset name argument with StandardCharsets.UTF_8(¯èà¿ùÿÿÿÿ
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡¬©€ùÿÿÿÿ

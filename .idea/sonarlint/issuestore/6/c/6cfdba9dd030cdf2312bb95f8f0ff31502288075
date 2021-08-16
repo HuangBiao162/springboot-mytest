@@ -1,0 +1,10 @@
+
+Usquid:S4719d"9Replace charset name argument with StandardCharsets.UTF_8(Á‰ÿÿÿÿÿ
+Psquid:S4719G"9Replace charset name argument with StandardCharsets.UTF_8(ŞûÉê
+Psquid:S4719B"9Replace charset name argument with StandardCharsets.UTF_8(ŞûÉê
+psquid:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(«üÎŒ
+zsquid:S1488"bImmediately return this expression instead of assigning it to the temporary variable "privateKey".(‘Åøª
+wsquid:S1488©"_Immediately return this expression instead of assigning it to the temporary variable "bverify".(…Ò•­
+~squid:S1488"aImmediately return this expression instead of assigning it to the temporary variable "publicKey".(êáØùÿÿÿÿ
+Qsquid:S4719§"9Replace charset name argument with StandardCharsets.UTF_8(åËï‡
+isquid:S3008,"RRename this field "KEYSIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÚ¯½
